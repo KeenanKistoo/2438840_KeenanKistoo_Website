@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background: InsertImage */
+  background: url(/images/monitors.jpg) no-repeat; /*Using this as placeholder for now */
+  background-size: cover;
+  height: 100vh;
+}
+
+#main-head {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 100px;
+  padding: 2%;
+  color: white;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(59, 58, 58, 0.356);
+  backdrop-filter: blur(20px);
+}
+
+nav ul {
+  float: right;
+  margin: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 20px;
+}

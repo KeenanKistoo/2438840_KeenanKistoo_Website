@@ -37,13 +37,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-a.active {
-  background-color: black;
-  color: aliceblue;
-  padding: 10px 30px;
-  border-radius: 25px;
-}
-
 .placeholder {
   height: 225px;
   width: 80%;
@@ -64,6 +57,7 @@ a.active {
   background-color: rgba(128, 128, 128, 0.308);
   backdrop-filter: blur(10px);
   border-radius: 5px;
+  color: white;
 }
 
 #blog-desc {
@@ -96,4 +90,31 @@ a.active {
   padding: 5%;
   border-radius: 5px;
   border: none;
+}
+
+#essay-icon {
+  margin-top: -40px;
+}
+
+#blog-home {
+  color: beige;
+}
+
+#design-home {
+  color: beige;
+}
+
+#portfolio-home {
+  color: beige;
+}
+
+#essay-home {
+  color: beige;
+}
+
+a.active {
+  background-color: black;
+  color: beige;
+  padding: 10px 30px;
+  border-radius: 25px;
 }

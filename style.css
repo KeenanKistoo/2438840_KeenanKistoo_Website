@@ -205,3 +205,14 @@ header ul li {
   margin-top: 15px;
   margin-left: 25%;
 }
+
+#portfolio-desc {
+  margin-top: -5px;
+  text-overflow: clip;
+}
+
+.port-tabs {
+  background-color: rgba(9, 9, 9, 0.432);
+  height: 50px;
+  margin-top: -6px;
+}

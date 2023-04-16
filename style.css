@@ -122,7 +122,9 @@ a.active {
 
 .page-body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(images/background_002.jpg);
+  background-image: url(images/paperTexture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {
@@ -181,29 +183,53 @@ header ul li {
 }
 
 .blog-img {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(36, 36, 36, 0.099);
+  padding: 5px;
+  border-radius: 5px;
   margin-bottom: -11%;
-  margin-top: 3%;
-  margin-left: 2%;
+  margin-top: 3.5%;
+  margin-left: 4%;
 }
 
 .date {
-  margin-left: 27%;
-  margin-top: -9%;
+  margin-left: 30%;
+  margin-top: -10%;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 10px;
+  color: rgb(36, 36, 36);
 }
 
-.blog-head {
-  margin-left: 27%;
+a.blog-head {
+  margin-left: 30%;
+  margin-top: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
 }
 
 .blog-info {
-  margin-left: 27%;
+  margin-left: 30%;
+  margin-top: 4%;
+  margin-right: 7%;
+  text-align: justify;
+  font-style: italic;
+  font-size: 10px;
+  color: rgb(36, 36, 36);
 }
 .blog-posts {
-  background-color: none;
+  background-color: rgba(180, 180, 180, 0.252);
+  /*border-style: solid;*/
+  border: solid 2px rgba(128, 128, 128, 0.368);
+  border-radius: 8px;
   height: 175px;
   width: 50%;
-  margin-top: 15px;
+  margin-top: 35px;
   margin-left: 25%;
+  margin-bottom: 2%;
 }
 
 #portfolio-desc {
@@ -215,4 +241,8 @@ header ul li {
   background-color: rgba(9, 9, 9, 0.432);
   height: 50px;
   margin-top: -6px;
+}
+
+#blog-seven {
+  margin-right: 14%;
 }

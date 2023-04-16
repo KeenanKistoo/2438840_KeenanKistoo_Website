@@ -1,5 +1,5 @@
 .home-body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-image: url(/images/whiteWall.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,6 +97,10 @@ nav ul li a {
   margin-top: -40px;
 }
 
+#design-icon {
+  margin-top: -40px;
+}
+
 #blog-home {
   color: beige;
 }
@@ -121,7 +125,7 @@ a.active {
 }
 
 .page-body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-image: url(images/paperTexture.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,7 +175,7 @@ header ul li {
   display: inline-block;
   margin-top: 17px;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 7%;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -245,4 +249,32 @@ a.blog-head {
 
 #blog-seven {
   margin-right: 14%;
+}
+
+.title-blog {
+  text-align: center;
+  color: beige;
+  padding-top: 1.5%;
+}
+
+.section-one {
+  font-style: italic;
+  font-weight: lighter;
+  margin-left: 12px;
+  margin-top: 3%;
+  font-size: 28px;
+}
+
+.line {
+  height: 5px;
+  width: 100%;
+  background-color: rgb(163, 163, 163);
+  margin-top: -15px;
+  margin-bottom: 2%;
+}
+
+.par-one {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 5px;
 }

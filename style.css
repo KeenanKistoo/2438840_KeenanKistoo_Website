@@ -212,7 +212,7 @@ header ul li {
 a.blog-head {
   margin-left: 30%;
   margin-top: 50px;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
@@ -223,7 +223,7 @@ a.blog-head {
   margin-right: 7%;
   text-align: justify;
   font-style: italic;
-  font-size: 12px;
+  font-size: 13px;
   color: rgb(36, 36, 36);
 }
 .blog-posts {
@@ -359,4 +359,34 @@ a.blog-head {
 .annote-frame {
   text-align: center;
   margin-top: -3px;
+}
+
+.footer {
+  height: 155px;
+  width: 100%;
+  background-color: rgba(49, 49, 49, 0.27);
+}
+
+.footer-links {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  line-height: 22px;
+  margin-top: 1%;
+  width: 200px;
+}
+
+.footer-blog-links {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  line-height: 22px;
+  margin-left: 20%;
+  margin-top: -300px;
+  float: none;
+}
+.foot-head {
+  font-size: 25px;
+  margin-bottom: -1%;
+  margin-left: 38px;
 }

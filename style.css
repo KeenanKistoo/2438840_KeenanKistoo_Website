@@ -348,3 +348,15 @@ a.blog-head {
   padding-right: 35px;
   margin-bottom: 2%;
 }
+
+.final-frame {
+  height: 500px;
+  width: 800px;
+  padding-top: 10px;
+  margin-left: 20%;
+}
+
+.annote-frame {
+  text-align: center;
+  margin-top: -3px;
+}

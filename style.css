@@ -267,6 +267,13 @@ a.blog-head {
   font-size: 28px;
 }
 
+.section-two {
+  font-style: italic;
+  font-weight: lighter;
+  margin-left: 12px;
+  margin-top: 4%;
+  font-size: 28px;
+}
 .sub-head {
   font-style: italic;
   font-weight: bold;

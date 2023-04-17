@@ -44,6 +44,7 @@ nav ul li a {
   margin-left: 10%;
   margin-top: 1%;
   border-radius: 5px;
+  margin-bottom: 2%;
   background-color: none;
   display: table;
 }
@@ -64,11 +65,12 @@ nav ul li a {
 #blog-desc {
   padding-left: 20px;
   padding-top: 20px;
+  font-size: 18px;
 }
 
 .button-home {
-  height: 175px;
-  width: 175px;
+  height: 225px;
+  width: 225px;
   margin-right: 5%;
   margin-left: 4%;
   margin-top: -10px;
@@ -77,15 +79,15 @@ nav ul li a {
 }
 
 .button-head {
-  font-size: 20px;
-  margin: -2px;
+  font-size: 25px;
+  margin-top: -10px;
 }
 
 .icons {
-  height: 350x;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   float: left;
-  margin-top: -35px;
+  margin-top: -65px;
   margin-left: -30px;
   background-color: white;
   padding: 5%;
@@ -94,11 +96,11 @@ nav ul li a {
 }
 
 #essay-icon {
-  margin-top: -40px;
+  margin-top: -75px;
 }
 
 #design-icon {
-  margin-top: -40px;
+  margin-top: -75px;
 }
 
 #blog-home {
@@ -199,29 +201,29 @@ header ul li {
 
 .date {
   margin-left: 30%;
-  margin-top: -10%;
+  margin-top: -6%;
   margin-bottom: 5%;
   text-transform: uppercase;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
   color: rgb(36, 36, 36);
 }
 
 a.blog-head {
   margin-left: 30%;
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
 }
 
 .blog-info {
   margin-left: 30%;
-  margin-top: 4%;
+  margin-top: 3%;
   margin-right: 7%;
   text-align: justify;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
   color: rgb(36, 36, 36);
 }
 .blog-posts {
@@ -287,6 +289,7 @@ a.blog-head {
   margin-left: 50px;
   margin-right: 50px;
   padding-bottom: 5px;
+  font-size: 18px;
 }
 
 #design-state {
@@ -306,4 +309,35 @@ a.blog-head {
 .annote {
   margin-top: -0.25%;
   margin-left: 80px;
+}
+
+.wire-img-right {
+  height: 300px;
+  width: 400x;
+  margin-left: 80px;
+  margin-top: -22%;
+  margin-right: 80px;
+  float: right;
+}
+
+.annote-right {
+  margin-top: -2%;
+  margin-left: 1020px;
+  margin-right: 80px;
+  margin-bottom: 5%;
+  line-height: 15px;
+}
+
+#userflow {
+  height: 550px;
+  width: 950px;
+  margin-left: 19%;
+}
+
+#userflow-text {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 2%;
 }
